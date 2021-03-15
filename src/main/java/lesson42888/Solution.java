@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.stream.Stream;
 
 //https://programmers.co.kr/learn/courses/30/lessons/42888
-class Solution {
+public class Solution {
     public String[] solution(String[] record) {
         ArrayList<String> answer = new ArrayList<>();
         Stream<String> strStream = Arrays.stream(record);
