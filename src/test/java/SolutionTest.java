@@ -7,6 +7,13 @@ import org.assertj.core.api.Assertions;
 public class SolutionTest {
 
     @Test
+    public void 테스트_42890() {
+        lesson42890.Solution solution = new lesson42890.Solution();
+        String[][] relation = {{"100","ryan","music","2"},{"200","apeach","math","2"},{"300","tube","computer","3"},{"400","con","computer","4"},{"500","muzi","music","3"},{"600","apeach","music","2"}};
+        int answer = 2;
+        Assertions.assertThat(solution.solution(relation)).isEqualTo(answer);
+    }
+    @Test
     public void 테스트_42889() {
         lesson42889.Solution solution = new lesson42889.Solution();
         int N = 5;
