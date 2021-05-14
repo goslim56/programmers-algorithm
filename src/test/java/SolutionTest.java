@@ -3,6 +3,16 @@ import org.junit.Test;
 
 public class SolutionTest {
     @Test
+    public void 테스트_12973() {
+        lesson12973.Solution solution = new lesson12973.Solution();
+        String[] s = {"baabaa", "cdcd"};
+        int[] result = {1, 0};
+        for (int i = 0; i < s.length; i++) {
+            Assertions.assertThat(solution.solution(s[i])).isEqualTo(result[i]);
+        }
+    }
+
+    @Test
     public void 테스트_12899() {
         lesson12899.Solution solution = new lesson12899.Solution();
         int[] n = {1, 2, 3, 4};
