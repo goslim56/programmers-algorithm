@@ -1,7 +1,26 @@
 import org.assertj.core.api.Assertions;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class SolutionTest {
+    @Test
+    public void 테스트_43165() {
+        lesson43165.Solution solution = new lesson43165.Solution();
+        int[] numbers = {1, 1, 1, 1, 1};
+        int target = 3;
+        int answer = 5;
+        Assertions.assertThat(solution.solution(numbers,target)).isEqualTo(answer);
+    }
+
+    @Test
+    public void 테스트_42626() {
+        lesson42626.Solution solution = new lesson42626.Solution();
+        int[] s = {1, 2, 3, 9, 10, 12};
+        int K = 7;
+        int answer = 2;
+        Assertions.assertThat(solution.solution(s,K)).isEqualTo(answer);
+    }
+
     @Test
     public void 테스트_12973() {
         lesson12973.Solution solution = new lesson12973.Solution();
