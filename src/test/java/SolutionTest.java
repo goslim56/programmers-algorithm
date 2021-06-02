@@ -3,6 +3,24 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class SolutionTest {
+
+    @Test
+    public void 테스트_72410() {
+        lesson72410.Solution solution = new lesson72410.Solution();
+        String new_id = "=.=";
+        String answer = "aaa";
+        Assertions.assertThat(solution.solution(new_id)).isEqualTo(answer);
+    }
+
+    @Test
+    public void 테스트_70128() {
+        lesson70128.Solution solution = new lesson70128.Solution();
+        int[] a = {1, 2, 3, 4};
+        int[] b = {-3,-1,0,2};
+        int result = 3;
+        Assertions.assertThat(solution.solution(a,b)).isEqualTo(result);
+    }
+
     @Test
     public void 테스트_43165() {
         lesson43165.Solution solution = new lesson43165.Solution();
