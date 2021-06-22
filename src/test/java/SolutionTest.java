@@ -5,6 +5,14 @@ import org.junit.Test;
 public class SolutionTest {
 
     @Test
+    public void 테스트_12977() {
+        lesson12977.Solution solution = new lesson12977.Solution();
+        int[] nums = {1, 2, 3, 4};
+        int answer = 1;
+        Assertions.assertThat(solution.solution(nums)).isEqualTo(answer);
+    }
+
+    @Test
     public void 테스트_72410() {
         lesson72410.Solution solution = new lesson72410.Solution();
         String new_id = "=.=";
