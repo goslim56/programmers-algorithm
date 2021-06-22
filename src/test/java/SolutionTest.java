@@ -37,6 +37,15 @@ public class SolutionTest {
     }
 
     @Test
+    public void 테스트_77884() {
+        lesson77884.Solution solution = new lesson77884.Solution();
+        int left = 13;
+        int right = 17;
+        int result = 43;
+        Assertions.assertThat(solution.solution(left, right)).isEqualTo(result);
+    }
+
+    @Test
     public void 테스트_76501() {
         lesson76501.Solution solution = new lesson76501.Solution();
         int[] absolutes = {4, 7, 12};
