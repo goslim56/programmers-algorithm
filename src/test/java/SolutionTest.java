@@ -5,6 +5,22 @@ import org.junit.Test;
 public class SolutionTest {
 
     @Test
+    public void 테스트_1829() {
+        lesson1829.Solution solution = new lesson1829.Solution();
+//        int m = 6;
+//        int n = 4;
+//        int[][] picture = {{1, 1, 1, 0}, {1, 2, 2, 0}, {1, 0, 0, 1}, {0, 0, 0, 1}, {0, 0, 0, 3}, {0, 0, 0, 3}};
+//        int[] answer = {4, 5};
+//        Assertions.assertThat(solution.solution(m, n, picture)).isEqualTo(answer);
+
+        int m2 = 13;
+        int n2 = 16;
+        int[][] picture2 = {{0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0}, {0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0}, {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0}, {0, 1, 1, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 1, 1, 0}, {0, 1, 1, 1, 2, 1, 2, 1, 1, 2, 1, 2, 1, 1, 1, 0}, {0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0}, {0, 1, 3, 3, 3, 1, 1, 1, 1, 1, 1, 3, 3, 3, 1, 0}, {0, 1, 1, 1, 1, 1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 0}, {0, 0, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 0, 0}, {0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0}, {0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0}};
+        int[] answer2 = {12, 120};
+        Assertions.assertThat(solution.solution(m2, n2, picture2)).isEqualTo(answer2);
+    }
+
+    @Test
     public void 테스트_12977() {
         lesson12977.Solution solution = new lesson12977.Solution();
         int[] nums = {1, 2, 3, 4};
