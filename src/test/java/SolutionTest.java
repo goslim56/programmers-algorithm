@@ -27,6 +27,14 @@ public class SolutionTest {
         Assertions.assertThat(solution.solution(m2, n2, picture2)).isEqualTo(answer2);
     }
 
+    @Test
+    public void 테스트_77484() {
+        lesson77484.Solution solution = new lesson77484.Solution();
+        int[] lottos = {44, 1, 0, 0, 31, 25};
+        int[] win_nums = {31, 10, 45, 1, 6, 19};
+        int[] result = {3, 5};
+        Assertions.assertThat(solution.solution(lottos, win_nums)).isEqualTo(result);
+    }
 
     @Test
     public void 테스트_76501() {
