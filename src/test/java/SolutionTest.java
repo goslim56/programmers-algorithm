@@ -27,6 +27,15 @@ public class SolutionTest {
         Assertions.assertThat(solution.solution(m2, n2, picture2)).isEqualTo(answer2);
     }
 
+
+    @Test
+    public void 테스트_68935() {
+        lesson68935.Solution solution = new lesson68935.Solution();
+        int n = 45;
+        int result = 7;
+        Assertions.assertThat(solution.solution(n)).isEqualTo(result);
+    }
+
     @Test
     public void 테스트_12977() {
         lesson12977.Solution solution = new lesson12977.Solution();
