@@ -29,6 +29,15 @@ public class SolutionTest {
 
 
     @Test
+    public void 테스트_76501() {
+        lesson76501.Solution solution = new lesson76501.Solution();
+        int[] absolutes = {4, 7, 12};
+        boolean[] signs = {true, false, true};
+        int result = 9;
+        Assertions.assertThat(solution.solution(absolutes, signs)).isEqualTo(result);
+    }
+
+    @Test
     public void 테스트_68935() {
         lesson68935.Solution solution = new lesson68935.Solution();
         int n = 45;
