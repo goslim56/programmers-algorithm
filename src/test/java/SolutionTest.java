@@ -1,8 +1,15 @@
 import org.assertj.core.api.Assertions;
-import org.junit.Assert;
 import org.junit.Test;
 
+
 public class SolutionTest {
+    @Test
+    public void 테스트_42746() {
+        lesson42746.Solution solution = new lesson42746.Solution();
+        int[] numbers = {6, 10, 2};
+        String answer = "6210";
+        Assertions.assertThat(solution.solution(numbers)).isEqualTo(answer);
+    }
 
     @Test
     public void 테스트_1829() {
