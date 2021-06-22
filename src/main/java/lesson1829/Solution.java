@@ -1,7 +1,7 @@
 package lesson1829;
 
 import java.util.Arrays;
-
+//https://programmers.co.kr/learn/courses/30/lessons/1829
 public class Solution {
     int numberOfArea = 0;
     int maxSizeOfOneArea = 0;
